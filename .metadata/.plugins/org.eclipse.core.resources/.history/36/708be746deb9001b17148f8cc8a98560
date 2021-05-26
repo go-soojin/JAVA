@@ -1,0 +1,19 @@
+package com.kopo.project0521;
+
+public class Student {
+	int idx;
+	String name;
+	int middlescore;
+	int finalscore;
+
+	Student() {
+
+	}
+
+	Student(String name, int middlescore, int finalscore) {
+		this.name = name;
+		this.middlescore = middlescore;
+		this.finalscore = finalscore;
+	}
+
+}
